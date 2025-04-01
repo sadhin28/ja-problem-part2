@@ -1,6 +1,6 @@
 function sendNotification(email) {
     if (!email.includes('@')) {
-        return "Invalid email format";
+        return "Invalid Email" ;
     }
    const [userName,domainName]=email.split('@');
    return `${userName} sent you an email from ${domainName}`
@@ -8,4 +8,4 @@ function sendNotification(email) {
 
 
 console.log(sendNotification("zihad.ph@gmail.com"));
-console.log(sendNotification("taosifsadhin@gmail.com"));
+console.log(sendNotification("taosifsadhingmail.com"));
